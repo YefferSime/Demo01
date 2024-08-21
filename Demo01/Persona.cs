@@ -9,6 +9,15 @@ namespace Demo01
 {
     public class Persona
     {
+        public Persona()
+        {
+
+        }
+        public Persona(string nombres, string apellidos)
+        {
+            Nombres = nombres;
+            Apellidos = apellidos;
+        }
         public String Nombres { get; set; }
         public String Apellidos { get; set; }
         public int Edad { get; set; }
